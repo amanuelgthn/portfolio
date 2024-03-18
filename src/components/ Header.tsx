@@ -1,51 +1,52 @@
-import React from 'react'
-
+import { useEffect, useState } from 'react'
 import { NavigationMenu } from './ui/navigation-menu'
 
 const  Header = () => {
+    const [Toggle, showMenu] = useState(false);
   return (
     <header className='header'>
-        <NavigationMenu className='nav container'>
-            <div className='nav-menu'>
-                <ul className='nav-list-grid'>
-                <li className='nav-item'>
-                        <a href='#' className='nav_logo'>
-                            <i className='uil nav_icon'></i> Amanuel
+        <nav className='nav container'>
+            <a href='/' className='nav__logo'>Amanuel
+            </a>
+            <div className='nav__menu'>
+                <ul className='nav__list'>
+                    <li className='nav__item'>
+                        <a href='#Home' className='nav__link active-link'>
+                            <i className='uil uil-estate nav__icon'></i> Home
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Home' className='nav_link'>
-                            <i className='uil uil-estate nav_icon'></i> Home
+                        <a href='#About' className='nav__link'>
+                            <i className='uil uil-user nav__icon'></i> About
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#About' className='nav_link'>
-                            <i className='uil uil-user nav_icon '></i> About
+                        <a href='#Skills' className='nav__link'>
+                            <i className='uil uil-file-alt nav__icon'></i> Skills
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Skills' className='nav_link'>
-                            <i className='uil uil-file-alt nav_icon'></i> Skills
+                        <a href='#Services' className='nav__link'>
+                            <i className='uil uil-briefcase-alt nav__icon'></i> Services
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Services' className='nav_link'>
-                            <i className='uil uil-briefcase-alt nav_icon'></i> Services
+                        <a href='#Portfolio' className='nav__link'>
+                            <i className='uil uil-scenery nav__icon'></i> Portfolio
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Portfolio' className='nav_link'>
-                            <i className='uil uil-scenery nav_icon'></i> Portfolio
-                        </a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#Cotact' className='nav_link'>
-                            <i className='uil uil-message nav_icon'></i> Contact
+                        <a href='#Contact' className='nav__link'>
+                            <i className='uil uil-message nav__icon'></i> Contact
                         </a>
                     </li>
                 </ul>
+                <i className="uil uil-times nav__close"></i>
             </div>
-        </NavigationMenu>
+            <div className='nav__toggle'>
+                <i className='uil uil-apps'></i>
+            </div>
+        </nav>
     </header>
   )
 }

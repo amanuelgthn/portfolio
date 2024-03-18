@@ -1,14 +1,11 @@
 import { useState } from 'react'
 import amanicon from '/amanicon.svg'
+import './components/Styling/header.css'
 import amanlogo  from '/amanlogo.svg'
-import './App.css'
-import './global.css'
 import Header from './components/ Header'
 import { Button } from './components/ui/button'
 
 function App() {
-
-  const [logowidth, setLogoWidth] = useState(100);
   
   return (
     <>
@@ -16,7 +13,8 @@ function App() {
     <div>
       {/* When the link is clicked, toggleLogoSize will be called */}
         {/* Apply dynamic width to the image */}
-        <img src={amanlogo} className="logo" alt="React logo" />
+        <img src={amanlogo}
+          />
     </div>
     <h1>My Portfolio Website</h1>
   </>
