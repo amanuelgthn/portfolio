@@ -4,19 +4,20 @@ import './components/Styling/header.css'
 import amanlogo  from '/amanlogo.svg'
 import Header from './components/ Header'
 import { Button } from './components/ui/button'
+import Home from './components/Home/Home'
 
 function App() {
   
   return (
     <>
     <Header />
-    <div>
-      {/* When the link is clicked, toggleLogoSize will be called */}
-        {/* Apply dynamic width to the image */}
-        <img src={amanlogo}
+    <main className="main">
+      <Home />
+    </main>
+          <img className="image__logo"
+             src={amanlogo}
+             width={100}
           />
-    </div>
-    <h1>My Portfolio Website</h1>
   </>
 );
 };
