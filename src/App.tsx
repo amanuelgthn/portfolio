@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import amanicon from '/amanicon.svg'
 import './components/Styling/header.css'
 import amanlogo  from '/amanlogo.svg'
 import Header from './components/ Header'
-import { Button } from './components/ui/button'
 import Home from './components/Home/Home'
+import About from './components/about/About'
 
 function App() {
   
@@ -13,6 +11,7 @@ function App() {
     <Header />
     <main className="main">
       <Home />
+      <About />
     </main>
           <img className="image__logo"
              src={amanlogo}

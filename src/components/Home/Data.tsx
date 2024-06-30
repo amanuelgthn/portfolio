@@ -1,15 +1,14 @@
-import React from 'react'
 import amanicon from '../../../public/amanicon.svg';
 const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Amanuel Getahun Bikora
+            Amanuel Getahun
             <img
                 className='home__hand'
-                width={36}
                 src={amanicon} alt="icon" />
         </h1>
+        <span className='home__title'>Bikora</span>
         <h3 className="home__subtitle">Software Engineer💻</h3>
         <br />
         <p className="home__description">As a recent full-stack software engineering boot camp graduate, my
