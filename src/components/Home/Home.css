@@ -17,7 +17,7 @@
     color: var(--title-color)
 }
 .home__img {
-    background: url('../../public/aman.jpeg');
+    background: url('../../../public/aman.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

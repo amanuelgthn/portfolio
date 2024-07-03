@@ -1,12 +1,8 @@
-import amanicon from '../../../public/amanicon.svg';
 const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
             Amanuel Getahun
-            <img
-                className='home__hand'
-                src={amanicon} alt="icon" />
         </h1>
         <span className='home__title'>Bikora</span>
         <h3 className="home__subtitle">Software Engineer💻</h3>
