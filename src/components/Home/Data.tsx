@@ -2,9 +2,8 @@ const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Amanuel Getahun
+            Amanuel Getahun Bikora
         </h1>
-        <span className='home__title'>Bikora</span>
         <h3 className="home__subtitle">Software Engineer💻</h3>
         <br />
         <p className="home__description">As a recent full-stack software engineering boot camp graduate, my
