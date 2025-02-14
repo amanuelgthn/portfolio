@@ -26,6 +26,21 @@ const Header = () => {
                 <i className="uil uil-user nav__icon"></i> About
               </Link>
             </li>
+            <li className="nav__item">
+              <Link to="/Skills" className="nav__link" onClick={closeMenu}>
+                <i className="uil uil-user nav__icon"></i> Skills
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link to="/Projects" className="nav__link" onClick={closeMenu}>
+                <i className="uil uil-user nav__icon"></i> Projects
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link to="/Contact" className="nav__link" onClick={closeMenu}>
+                <i className="uil uil-user nav__icon"></i> Contact
+              </Link>
+            </li>
             {/* Add additional navigation items here as required */}
           </ul>
           <i className="uil uil-times nav__close" onClick={toggleMenu}></i>

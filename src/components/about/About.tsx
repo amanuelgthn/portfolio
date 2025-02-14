@@ -10,13 +10,9 @@ const About = () => {
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My Introduction</span>
       </div>
-
       <div className="about__container container grid">
-        <img src={aman} alt="" className="about__img" />
-
         <div className="about__data">
           <Info />
-
           <p className="about__description">
             A software engineer with a speciallization in webdevelopment
             with an experience in developing web applications using Python,
@@ -42,7 +38,6 @@ const About = () => {
           </a>
         </div>
       </div>
-      <Skills />
     </section>
   )
 }
