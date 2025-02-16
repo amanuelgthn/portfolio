@@ -15,6 +15,7 @@ function App() {
       <main className="main">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="blog" element={<blog />}
           <Route path="/about" element={<About />} />
           <Route path='/Skills' element={<Skills />} />
           <Route path='/Contact' element={<Contact />} />
