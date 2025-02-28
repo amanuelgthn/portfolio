@@ -17,7 +17,7 @@ const Header = () => {
         <div className={isMenuOpen ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list">
             <li className="nav__item">
-              <Link to="/" className="nav__link active-link" onClick={closeMenu}>
+              <Link to="/" className="nav__link" onClick={closeMenu}>
                 <i className="uil uil-estate nav__icon"></i> Home
               </Link>
             </li>

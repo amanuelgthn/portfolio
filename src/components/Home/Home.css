@@ -1,3 +1,6 @@
+.home.section {
+    background: url('../../assets/background-image.jpg');
+}
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -78,7 +81,7 @@ span.home__title {
 }
 
 .home__description {
-    max-width: 400px;
+    max-width: 100vw;
     margin-bottom: var(--mb-3);
 }
 
